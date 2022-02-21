@@ -11,6 +11,7 @@ import "./Gallery.css";
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
+  console.log(scrollRef, "ref");
 
   const scroll = (direction) => {
     const { current } = scrollRef;
