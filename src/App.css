@@ -101,6 +101,15 @@
   width: 45px;
 }
 
+[data-testid="ball-triangle-loading"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-black);
+}
+
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {
