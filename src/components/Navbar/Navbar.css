@@ -1,4 +1,5 @@
 .app__navbar {
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -6,6 +7,7 @@
   background: var(--color-black);
 
   padding: 1rem 2rem;
+  z-index: 100;
 }
 
 .app__navbar-logo {
