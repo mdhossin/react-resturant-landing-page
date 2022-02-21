@@ -1,12 +1,13 @@
 import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-
+import ScrollToTop from "react-scroll-to-top";
 import { FooterOverlay, Newsletter } from "../../components";
 import { images } from "../../constants";
 import "./Footer.css";
 
 const Footer = () => (
   <div className="app__footer section__padding" id="login">
+    <ScrollToTop smooth top={20} color="#0C0C0C" />
     <FooterOverlay />
     <Newsletter />
 

@@ -1,13 +1,22 @@
-.app__navbar {
-  position: fixed;
+.header {
   width: 100%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: 0.4s; /*For animation dark mode*/
+}
+
+.app__navbar {
+  height: 4.5rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--color-black);
 
   padding: 1rem 2rem;
-  z-index: 100;
 }
 
 .app__navbar-logo {
@@ -74,7 +83,7 @@
   transition: 0.5s ease;
 
   flex-direction: column;
-  z-index: 5;
+  z-index: 999;
 }
 
 .app__navbar-smallscreen_overlay .overlay__close {
